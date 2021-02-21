@@ -53,9 +53,7 @@ df %>% filter(hp >= 110 & carb <= 3)
 
 ### Python
 ```{r, eval = FALSE}
-df[['mpg','cyl','disp','hp','drat','wt']]
-# or alternatively
-df.drop(['qsec', 'vs', 'am', 'gear', 'carb'], axis = 1)
+
 ```
 ### Output
 ```{r, echo = FALSE}
